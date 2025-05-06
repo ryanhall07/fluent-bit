@@ -26,7 +26,7 @@ RUN apt-get update && \
     make bash wget unzip nano vim valgrind dh-make flex bison \
     libpq-dev postgresql-server-dev-all software-properties-common \
     software-properties-common libyaml-dev apt-transport-https  \
-    pkg-config libsasl2-2 libsasl2-dev openssl libssl-dev libssl1.0 \
+    pkg-config libsasl2-2 libsasl2-dev openssl libssl-dev libssl1.0 cyrus-sasl-gssapi \
     libcurl4-openssl-dev zlib1g-dev \
     tar gzip && \
     wget -q -O - https://apt.kitware.com/keys/kitware-archive-latest.asc 2>/dev/null | \
@@ -56,7 +56,7 @@ RUN apt-get update && \
     apt-get install -y curl ca-certificates gcc-8 g++-8 libsystemd-dev \
     make bash wget unzip nano vim valgrind dh-make flex bison \
     libpq-dev postgresql-server-dev-all \
-    libsasl2-2 libsasl2-dev openssl libssl-dev libssl1.1 libcurl4-openssl-dev \
+    libsasl2-2 libsasl2-dev openssl libssl-dev libssl1.1 libcurl4-openssl-dev cyrus-sasl-gssapi \
     software-properties-common libyaml-dev apt-transport-https pkg-config zlib1g-dev \
     tar gzip && \
     wget -q -O - https://apt.kitware.com/keys/kitware-archive-latest.asc 2>/dev/null | \
@@ -90,7 +90,7 @@ RUN apt-get update && \
     apt-get install -y curl ca-certificates gcc-8 g++-8 libsystemd-dev \
     make bash wget unzip nano vim valgrind dh-make flex bison \
     libpq-dev postgresql-server-dev-all \
-    libsasl2-2 libsasl2-dev openssl libssl-dev libssl1.1 libcurl4-openssl-dev \
+    libsasl2-2 libsasl2-dev openssl libssl-dev libssl1.1 libcurl4-openssl-dev cyrus-sasl-gssapi \
     software-properties-common libyaml-dev apt-transport-https pkg-config zlib1g-dev \
     tar gzip && \
     wget -q -O - https://apt.kitware.com/keys/kitware-archive-latest.asc 2>/dev/null | \
@@ -120,7 +120,7 @@ RUN apt-get update && \
     apt-get install -y curl ca-certificates build-essential libsystemd-dev \
     make bash wget unzip nano vim valgrind dh-make flex bison \
     libpq-dev postgresql-server-dev-all \
-    libsasl2-2 libsasl2-dev openssl libssl-dev libssl1.1 libcurl4-openssl-dev \
+    libsasl2-2 libsasl2-dev openssl libssl-dev libssl1.1 libcurl4-openssl-dev cyrus-sasl-gssapi \
     libyaml-dev pkg-config zlib1g-dev \
     tar gzip && \
     apt-get install -y --reinstall lsb-base lsb-release && \
@@ -146,7 +146,7 @@ RUN apt-get update && \
     apt-get install -y curl ca-certificates build-essential libsystemd-dev \
     make bash wget unzip nano vim valgrind dh-make flex bison \
     libpq-dev postgresql-server-dev-all \
-    libsasl2-2 libsasl2-dev openssl libssl-dev libssl1.1 libcurl4-openssl-dev \
+    libsasl2-2 libsasl2-dev openssl libssl-dev libssl1.1 libcurl4-openssl-dev cyrus-sasl-gssapi \
     libyaml-dev pkg-config zlib1g-dev \
     tar gzip && \
     apt-get install -y --reinstall lsb-base lsb-release && \
@@ -170,7 +170,7 @@ RUN apt-get update && \
     apt-get install -y curl ca-certificates build-essential libsystemd-dev \
     make bash wget unzip nano vim valgrind dh-make flex bison \
     libpq-dev postgresql-server-dev-all libpq5 \
-    libsasl2-2 libsasl2-dev openssl libssl-dev libssl3 libcurl4-openssl-dev \
+    libsasl2-2 libsasl2-dev openssl libssl-dev libssl3 libcurl4-openssl-dev cyrus-sasl-gssapi \
     libyaml-dev pkg-config zlib1g-dev \
     tar gzip && \
     apt-get install -y --reinstall lsb-base lsb-release && \
@@ -196,7 +196,7 @@ RUN apt-get update && \
     apt-get install -y curl ca-certificates build-essential libsystemd-dev \
     make bash wget unzip nano vim valgrind dh-make flex bison \
     libpq-dev postgresql-server-dev-all libpq5 \
-    libsasl2-2 libsasl2-dev openssl libssl-dev libssl3 libcurl4-openssl-dev \
+    libsasl2-2 libsasl2-dev openssl libssl-dev libssl3 libcurl4-openssl-dev cyrus-sasl-gssapi \
     libyaml-dev pkg-config zlib1g-dev \
     tar gzip && \
     apt-get install -y --reinstall lsb-base lsb-release && \
@@ -220,7 +220,7 @@ RUN apt-get update && \
     apt-get install -y curl ca-certificates build-essential libsystemd-dev \
     make bash wget unzip nano vim valgrind dh-make flex bison \
     libpq-dev postgresql-server-dev-all libpq5 \
-    libsasl2-2 libsasl2-dev openssl libssl-dev libssl3 libcurl4-openssl-dev \
+    libsasl2-2 libsasl2-dev openssl libssl-dev libssl3 libcurl4-openssl-dev cyrus-sasl-gssapi \
     libyaml-dev pkg-config zlib1g-dev \
     tar gzip && \
     apt-get install -y --reinstall lsb-base lsb-release && \
@@ -246,7 +246,7 @@ RUN apt-get update && \
     apt-get install -y curl ca-certificates build-essential libsystemd-dev \
     make bash wget unzip nano vim valgrind dh-make flex bison \
     libpq-dev postgresql-server-dev-all libpq5 \
-    libsasl2-2 libsasl2-dev openssl libssl-dev libssl3 libcurl4-openssl-dev \
+    libsasl2-2 libsasl2-dev openssl libssl-dev libssl3 libcurl4-openssl-dev cyrus-sasl-gssapi \
     libyaml-dev pkg-config zlib1g-dev \
     tar gzip && \
     apt-get install -y --reinstall lsb-base lsb-release && \

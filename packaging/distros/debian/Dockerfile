@@ -23,7 +23,7 @@ RUN apt-get -qq update && \
     make bash sudo wget unzip dh-make \
     libsystemd-dev zlib1g-dev flex bison \
     libssl1.1 libssl-dev libpq-dev postgresql-server-dev-all \
-    libsasl2-2 libsasl2-dev libyaml-dev libcurl4-openssl-dev pkg-config \
+    libsasl2-2 libsasl2-dev libyaml-dev libcurl4-openssl-dev cyrus-sasl-gssapi pkg-config \
     tar gzip && \
     apt-get install -y --reinstall lsb-base lsb-release && \
     mkdir -p "${CMAKE_HOME}" && \
@@ -49,7 +49,7 @@ RUN apt-get -qq update && \
     make bash sudo wget unzip dh-make \
     libsystemd-dev zlib1g-dev flex bison \
     libssl1.1 libssl-dev libpq-dev postgresql-server-dev-all \
-    libsasl2-2 libsasl2-dev libyaml-dev libcurl4-openssl-dev pkg-config \
+    libsasl2-2 libsasl2-dev libyaml-dev libcurl4-openssl-dev cyrus-sasl-gssapi pkg-config \
     tar gzip && \
     apt-get install -y --reinstall lsb-base lsb-release && \
     mkdir -p "${CMAKE_HOME}" && \
@@ -73,7 +73,7 @@ RUN apt-get -qq update && \
     make bash sudo wget unzip dh-make \
     libsystemd-dev zlib1g-dev flex bison \
     libssl1.1 libssl-dev libpq-dev postgresql-server-dev-all \
-    libsasl2-2 libsasl2-dev libyaml-dev libcurl4-openssl-dev pkg-config \
+    libsasl2-2 libsasl2-dev libyaml-dev libcurl4-openssl-dev cyrus-sasl-gssapi pkg-config \
     tar gzip && \
     apt-get install -y --reinstall lsb-base lsb-release && \
     mkdir -p "${CMAKE_HOME}" && \
@@ -99,7 +99,7 @@ RUN apt-get -qq update && \
     make bash sudo wget unzip dh-make \
     libsystemd-dev zlib1g-dev flex bison \
     libssl1.1 libssl-dev libpq-dev postgresql-server-dev-all \
-    libsasl2-2 libsasl2-dev libyaml-dev libcurl4-openssl-dev pkg-config \
+    libsasl2-2 libsasl2-dev libyaml-dev libcurl4-openssl-dev cyrus-sasl-gssapi pkg-config \
     tar gzip && \
     apt-get install -y --reinstall lsb-base lsb-release && \
     mkdir -p "${CMAKE_HOME}" && \
@@ -123,7 +123,7 @@ RUN apt-get -qq update && \
     make bash sudo wget unzip dh-make \
     libsystemd-dev zlib1g-dev flex bison \
     libssl3 libssl-dev libpq-dev postgresql-server-dev-all \
-    libsasl2-2 libsasl2-dev libyaml-dev libcurl4-openssl-dev pkg-config \
+    libsasl2-2 libsasl2-dev libyaml-dev libcurl4-openssl-dev cyrus-sasl-gssapi pkg-config \
     tar gzip && \
     apt-get install -y --reinstall lsb-base lsb-release && \
     mkdir -p "${CMAKE_HOME}" && \
@@ -149,7 +149,7 @@ RUN apt-get -qq update && \
     make bash sudo wget unzip dh-make \
     libsystemd-dev zlib1g-dev flex bison \
     libssl3 libssl-dev libpq-dev postgresql-server-dev-all \
-    libsasl2-2 libsasl2-dev libyaml-dev libcurl4-openssl-dev pkg-config \
+    libsasl2-2 libsasl2-dev libyaml-dev libcurl4-openssl-dev cyrus-sasl-gssapi pkg-config \
     tar gzip && \
     apt-get install -y --reinstall lsb-base lsb-release && \
     mkdir -p "${CMAKE_HOME}" && \
